@@ -20,7 +20,7 @@ public class DaoInFin extends SQLiteOpenHelper {
                 "description VARCHAR(255), value DOUBLE, date Date);";
         db.execSQL(sql);
         sql = "CREATE TABLE user(id_user INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                "name VARCHAR(60), date_birth DATE, DOUBLE income)";
+                "name VARCHAR(60), date_birth DATE, image VARCHAR(255))";
         db.execSQL(sql);
     }
 

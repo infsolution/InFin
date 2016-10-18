@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">InFin</string>
+    <string name="in_title">Wel come</string>
+    <string name="in_name">User name</string>
 </resources>

@@ -10,6 +10,7 @@ public class User {
     private String name;
     private Date date_birth;
     private Double income;
+    private String imageProfile;
     public User(String name){
         this.name=name;
     }
@@ -44,6 +45,14 @@ public class User {
 
     public void setIncome(Double income) {
         this.income = income;
+    }
+
+    public String getImageProfile() {
+        return imageProfile;
+    }
+
+    public void setImageProfile(String imageProfile) {
+        this.imageProfile = imageProfile;
     }
 
     @Override
